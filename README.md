@@ -21,4 +21,11 @@ Exapmle of usage
 <li> value  /* your dice command */ </li>
 <li>total  /* total or min-max */ </li>
 <li> dice  /* your dices */ </li>
-  };
+
+<p> Example </p>
+
+<p> const mydice = useDice("3d6+5")  </p>
+
+     <h2>Dice: {mydice.value}</h2>
+      <h2>Result: {mydice.total}</h2>
+      <h2>Dices: {mydice.dice.map(item=>" "+item)}</h2>

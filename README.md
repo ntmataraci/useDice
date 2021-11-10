@@ -18,7 +18,7 @@ Exapmle of usage
 <p> const dice = useDice("disadv")   /** for 2d20 and min  </p>
 
 <H2> for return use this object keys </h2>
-value  /* your dice command */
-total  /* total or min-max */
-dice  /* your dices */
+<li> value  /* your dice command */ </li>
+<li>total  /* total or min-max */ </li>
+<li> dice  /* your dices */ </li>
   };

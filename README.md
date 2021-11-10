@@ -16,3 +16,9 @@ Exapmle of usage
 <h2> Also you can use for advante and disadvantage</h2>
 <p> const dice = useDice("adv")   /** for 2d20 and max  </p>
 <p> const dice = useDice("disadv")   /** for 2d20 and min  </p>
+
+<H2> for return use this object keys </h2>
+value  /* your dice command */
+total  /* total or min-max */
+dice  /* your dices */
+  };
